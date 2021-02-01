@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         //
         button.setOnClickListener{
-            Toast.makeText(applicationContext, "버튼을 누르셨네요.",Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "button을 누르셨네요.",Toast.LENGTH_SHORT).show()
         }
         button2.setOnClickListener{
             val input = editTextTextPersonName.text.toString()
